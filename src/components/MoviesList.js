@@ -13,7 +13,7 @@ export class MoviesList extends Component {
       <div className="MoviesList">
         { movies.map((movie) => {
           return (
-              <div className =" MoviesList-item" key={movie.imdbID}s>
+              <div className =" MoviesList-item" key={movie.imdbID}>
             <Movie
               title={movie.Title}
               year={movie.year}
