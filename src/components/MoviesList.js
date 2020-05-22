@@ -23,6 +23,6 @@ export class MoviesList extends Component {
           )
         })}
       </div>
-    );
+    )
   }
 }
