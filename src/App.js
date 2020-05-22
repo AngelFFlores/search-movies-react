@@ -17,7 +17,6 @@ class App extends Component {
        :  <MoviesList  movies = {this.state.results}/>
      
   }
-  
   render() {
     return (
       <div className="App">
